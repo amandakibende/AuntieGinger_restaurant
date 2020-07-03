@@ -1,3 +1,45 @@
 body {
-  color: blue;
+  font-family: "Cormorant", serif;
+  font-size: 20px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.nav ol {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  padding: 1px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  background-image: url(img/header-dish.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  font-size: 47px;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: "Prata", serif;
+}
+
+.code {
+  font-size: 12px;
 }
