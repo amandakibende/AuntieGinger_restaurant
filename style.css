@@ -59,3 +59,49 @@ h2 {
 iframe {
   float: left;
 }
+
+form {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea,
+select {
+  width: 300px;
+  box-sizing: border-box;
+  border: 2x solid black;
+  margin: 2px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5;
+}
+
+button {
+  padding: 15px 20px;
+  border: 1px solid black;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 15px;
+}
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#btn-send {
+  padding: 10px 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
