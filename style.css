@@ -57,7 +57,7 @@ h2 {
 }
 
 iframe {
-  float: left;
+  border: 2px solid black;
 }
 
 form {
@@ -104,4 +104,17 @@ button:hover {
   padding: 10px 50px;
   margin-top: 15px;
   margin-left: 100px;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+i {
+  cursor: pointer;
+}
+
+.open {
+  font-size: 20px;
+  text-align: center;
 }

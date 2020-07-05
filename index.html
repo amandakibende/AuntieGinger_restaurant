@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/96875a5e76.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap"
       rel="stylesheet"
@@ -25,7 +29,14 @@
 
         <li><a href="#contact">Contact us</a></li>
       </ol>
+      <div class="open">
+        <p>
+          We are open from Thursday to Sunday. From 11am to 12pm
+        </p>
+        <p id="hours">#</p>
+      </div>
     </nav>
+
     <header>
       <h1>Auntie Ginger</h1>
 
@@ -59,8 +70,6 @@
 
       <h2 id="reservation">Reservation</h2>
 
-      <p>We are open from Thursday to Sunday. From 11am to 12pm</p>
-
       <h2 id="contact">Contact us</h2>
 
       <form action="" method="get">
@@ -90,9 +99,8 @@ Write something...</textarea
         >
         <button id="btn-send">Send</button>
       </form>
-
       <h2 id="location">Restaurant location</h2>
-      <div>
+      <div id="rest-location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4389688858596!2d2.3650060156747466!3d48.868907779288534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e09daec285b%3A0xf086b3437d5a8d21!2s11%20Quai%20de%20Jemmapes%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1593798916975!5m2!1sfr!2sfr"
           width="600"
@@ -103,11 +111,14 @@ Write something...</textarea
           aria-hidden="false"
           tabindex="0"
         ></iframe>
-        <p>you can also find us here : f, t, insta</p>
       </div>
     </main>
-
+    <hr />
     <footer id="info">
+      <p>
+        follow us here : <i class="fab fa-facebook"></i>,
+        <i class="fab fa-twitter-square"></i>, <i class="fab fa-instagram"></i>
+      </p>
       <p class="code">
         <a
           href="https://github.com/amandakibende/AuntieGinger_restaurant"
