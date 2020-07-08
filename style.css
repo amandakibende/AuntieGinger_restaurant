@@ -96,7 +96,7 @@ button {
 }
 button:hover {
   color: #000000;
-  background-color: #ffffff;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -117,4 +117,16 @@ i {
 .open {
   font-size: 20px;
   text-align: center;
+}
+
+.starter,
+.dish,
+.desert,
+.drinks {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #f9b384;
+  padding: 10px;
+  width: 500px;
+  line-height: 15px;
 }
