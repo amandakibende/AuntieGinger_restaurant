@@ -65,38 +65,37 @@
         your food.
       </p>
       <p>We compliment ginger in all forms.</p>
+      <div class="contact-container">
+        <h2 id="contact">Contact us</h2>
 
-      <h2 id="reservation">Reservation</h2>
+        <form action="" method="get">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="name"
+            id="email"
+            placeholder="xxx@auntieginger.com"
+          />
 
-      <h2 id="contact">Contact us</h2>
+          <label for="name">Name</label>
+          <input type="text" placeholder="Auntie" />
 
-      <form action="" method="get">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          name="name"
-          id="email"
-          placeholder="xxx@auntieginger.com"
-        />
+          <label for="subject">Subject</label>
+          <select name="text" id="subject">
+            <option value="">Subjects</option>
+            <option value="Work">Work with us</option>
+            <option value="res">Reservation</option>
+            <option value="collab">Collaboration</option>
+            <option value="other">Other</option>
+          </select>
 
-        <label for="name">Name</label>
-        <input type="text" placeholder="Auntie" />
-
-        <label for="subject">Subject</label>
-        <select name="text" id="subject">
-          <option value="">Subjects</option>
-          <option value="Work">Work with us</option>
-          <option value="res">Reservation</option>
-          <option value="collab">Collaboration</option>
-          <option value="other">Other</option>
-        </select>
-
-        <label for="text">Message</label>
-        <textarea name="text" id="" cols="30" rows="10">
+          <label for="text">Message</label>
+          <textarea name="text" id="" cols="30" rows="10">
 Write something...</textarea
-        >
-        <button id="btn-send">Send</button>
-      </form>
+          >
+          <button id="btn-send">Send</button>
+        </form>
+      </div>
       <h2 id="location">Restaurant location</h2>
       <div id="rest-location">
         <iframe
@@ -117,14 +116,14 @@ Write something...</textarea
         follow us here : <i class="fab fa-facebook"></i>,
         <i class="fab fa-twitter-square"></i>, <i class="fab fa-instagram"></i>
       </p>
-      <p class="code">
+      <small>
         <a
           href="https://github.com/amandakibende/AuntieGinger_restaurant"
           target="_blank"
           >Open source code</a
         >
         by Amanda KIBENDE
-      </p>
+      </small>
     </footer>
     <script src="script.js"></script>
   </body>

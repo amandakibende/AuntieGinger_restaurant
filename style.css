@@ -40,11 +40,11 @@ h2 {
   font-family: "Prata", serif;
 }
 
-.code {
-  font-size: 15px;
+iframe {
+  border: 2px solid black;
 }
 
-#reservation {
+.contact-container {
   background-image: url(img/table.jpg);
   background-size: cover;
   background-position: center;
@@ -56,15 +56,14 @@ h2 {
   text-align: center;
 }
 
-iframe {
-  border: 2px solid black;
-}
-
 form {
+  background-color: #ffffff;
   width: 400px;
-  padding: 20px;
+  height: 500px;
+  padding: 5px;
   border: 2px solid #000000;
-  border-radius: 15px;
+  margin: 200px;
+  display: block;
 }
 
 label {
@@ -118,15 +117,13 @@ i {
   font-size: 20px;
   text-align: center;
 }
-
-.starter,
-.dish,
-.desert,
-.drinks {
-  display: block;
-  margin: 0 auto;
-  border: 2px solid #f9b384;
-  padding: 10px;
-  width: 500px;
-  line-height: 15px;
+.menu-container {
+  background-color: #fdbe5a;
+}
+.menu-line {
+  background-color: black;
+  color: black;
+  height: 2px;
+  border: 1 solid #fdbe5a;
+  border: none;
 }
